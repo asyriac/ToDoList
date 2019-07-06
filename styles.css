@@ -1,0 +1,11 @@
+.todo li{
+  background-color: #FFA07A	;
+}
+
+.bg-color{
+  background-color: #DC143C	;
+}
+
+.delete{
+  cursor:pointer;
+}
