@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <title>To do</title>
+  </head>
+  <body class="bg-color">
+    <div class="container">
+      <h1 class="display-4 text-white text-center py-4">To Do!</h1>
+      <form class="search-event py-4">
+        <input class="form-control text-center" type="text" name="search" value="" placeholder="Search" autocomplete="off">
+      </form>
+      <ul class="list-group todo">
+        <li class="list-group-item text-center">
+          <span> Event</span>
+          <i class="far fa-trash-alt float-right delete"></i>
+        </li>
+        <li class="list-group-item text-center">
+          <span> Working</span>
+          <i class="far fa-trash-alt float-right delete"></i>
+        </li>
+        <li class="list-group-item text-center">
+          <span> Properly yeah</span>
+          <i class="far fa-trash-alt float-right delete"></i>
+        </li>
+      </ul>
+      <form class="add-event py-4">
+        <input class="form-control text-center" type="text" name="add" value="" placeholder="Add new event" autocomplete="off">
+      </form>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
